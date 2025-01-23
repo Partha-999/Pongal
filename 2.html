@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - Naa premaaa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("pg2.png");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .caption {
+            font-size: 36px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 850px;
+            background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative; /* Makes the container the reference point for absolute positioning */
+            left: 5%; /* Position it slightly to the left of center */
+            text-align: center;
+            margin-right: 600px
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 18px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        .back-button {
+            margin-top: 50px; /* Adjust this value to move the button down */
+            padding: 10px 20px;
+            background-color: #ff4500;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ff6347;
+        }
+
+        /* Style for the content box */
+        .content-box {
+            width: 100%;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-top: 30px; /* Adds space between the container and the box */
+            font-size: 18px;
+            color: #333;
+        }
+
+        .content-box h3 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .content-box p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        /* Right side image (outside of the container) */
+        .right-image {
+            position: absolute;
+            top: 50%;
+            right: 6%;
+            transform: translateY(-50%); /* Center the image vertically */
+            max-width: 450px; /* You can adjust the size of the image */
+            max-height: 100%; /* Keeps the image within the viewable height */
+            object-fit: contain; /* Ensures the image scales without distorting */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Undiii Bangarammm</h1>
+        <div class="quote-box">
+            <p class="quote-text"> 
+                Ammuu okka sari nen cheppe conversations vinu, neeku nenu antuna anuko, antey roles reverse laaga
+                <br>
+                Love you kanna- Dengey
+                <br>
+                Love you soo much kanna- idc
+                <br>
+                Nenu unta neetho eppatiki- nee karma
+                <br>
+                Okkee okka photo once- u had more than enough
+                <br>
+                Oyeee missing u kanna- ok
+                <br>
+                Areyyy naaku nee hug kavali, wanna hold you- avvadu
+                <br>
+                Chaala miss avtuna ra- ok
+                <br>
+                Premalo munchestha kanna- chudu naaku love, marriage interest ledu adi nee lanti daani meeda never
+                <br>
+                Been many days ostav kada kanna- no raanu
+                <br>
+                Edo la undi ra, enno days ayyinatu undi- Same, inko 10 days ikkade untey ninnu marchipotha
+                <br>
+                Benga ga undi ra- em cheyamantav?
+                <br>
+                Kanna kanna outfit cheppu- edo okati ur wish
+                <br>
+                <br>
+                Ila prathi sari undede ammu, nuv care cheyaka poyina, pattinchukoka poyina, nannu premaga pilaka poyina,
+                tirigi 3 words cheppaka poyina, leda nen cheppinapudu nuv ok anakapoyina, photo adiginapudu pette danivi kaadu,
+                reels pettavu, nen petti neethone ante aapu antav, okkasari ayna naalo change chusava ammu, okka second ayna maarana?? 
+                Nenu perfect ani cheppatledu, nenu perfect kaadu kuda, kaani ninnu preminche daanilo eppudu heartful ga premistune 
+                unta ammuuu, nuvvey naa praanam, naa anniii.... 
+                <br>
+                <br>
+                Nee premaki antha scene ledu annav kada ammu, ee vishayam lo matram ninnu wrong ani prove chesthaa, nuv antey praaname naaku....
+            </p>
+        </div>
+        <a href="start.html"><button class="back-button">Go Back</button></a>
+    </div>
+
+    <!-- Image outside of the container, aligned to the right -->
+    <img src="image.png" alt="Right Side Image" class="right-image">
+</body>
+</html>
